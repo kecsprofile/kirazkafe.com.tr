@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiraz Kafe - Lezzetin ve Huzurun Buluşma Noktası</title>
+  <meta name="title" content="Kiraz Kafe">
+  <meta name="description" content="Lezzetin ve huzurun buluşma noktası.">
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda&family=Oswald:wght@300;400;500&family=Roboto:wght@400;500;700&display=swap">
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <p class="header-top-text">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          07.00 - 23.00
+        </p>
+        <!-- <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul> -->
+      </div>
+    </div>
+    <div class="header-bottom" data-header>
+      <div class="container">
+        <a href="/" class="logo">
+          <img src="./assets/images/logo.png" width="216" height="80" alt="Kiraz Kafe - Logo" class="w-100">
+        </a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Ana Sayfa</a>
+            </li>
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>Hakkımızda</a>
+            </li>
+            <li>
+              <a href="#menu" class="navbar-link" data-nav-link>Menü</a>
+            </li>
+            <li>
+              <a href="#updates" class="navbar-link" data-nav-link>Yenilikler</a>
+            </li>
+          </ul>
+          <a href="tel:+905366508407" class="btn btn-primary">Bizi Arayın</a>
+        </nav>
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="span"></span>
+          <span class="span"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <section class="section hero has-bg-image" id="home" aria-labelledby="hero-label"
+      style="background-image: url('./assets/images/heroBanner.png')">
+        <div class="container">
+          <p class="section-subtitle has-before reveal-left" data-reveal>Kiraz Kafe'ye hoş geldiniz</p>
+          <h1 class="h1 hero-title reveal-left" id="hero-label" data-reveal>Lezzet ve Huzur</h1>
+          <div class="btn-group reveal-left" data-reveal>
+            <a href="#menu" class="btn btn-primary">
+              <span class="span">Menü</span>
+            </a>
+            <a href="#about" class="btn btn-secondary">
+              <span class="span">Hakkımızda</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section about" id="about" aria-labelledby="about-label">
+        <div class="container">
+          <div class="about-content">
+            <p class="section-subtitle reveal-left" id="about-label" data-reveal>Hakkımızda</p>
+            <h2 class="h2 section-title reveal-left" data-reveal>Lezzetli ve Taze Ürünler Dükkanı</h2>
+            <p class="section-text reveal-left" data-reveal>
+              Kiraz Kafe olarak, taze ve lezzetli yemekleri özenle hazırlıyor, kahve tutkunlarına en iyi deneyimi sunuyoruz. Kaliteli malzemelerle, sıcak ve samimi bir ortamda hizmet veriyoruz. Lezzetli atıştırmalıklar, doyurucu yemekler ve özel kahve çeşitlerimizle gününüze keyif katmak için buradayız.
+
+              Sizi ağırlamaktan mutluluk duyarız!
+            </p>
+            <div class="about-card reveal-left" data-reveal>
+              <figure class="card-banner img-holder" style="--width: 95; --height: 95;">
+                <img src="./assets/images/aboutImage.png" width="95" height="95" loading="lazy" alt="john doe"
+                  class="img-cover">
+              </figure>
+              <p class="card-text">
+                Nüshet Sürsal<br>- İşletme Sahibi
+              </p>
+            </div>
+          </div>
+          <figure class="about-banner reveal-right" data-reveal>
+            <img src="./assets/images/aboutBanner.png" width="686" height="544" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+        </div>
+      </section>
+      <section class="section service" aria-label="service">
+        <div class="container">
+          <ul class="grid-list">
+            <li>
+              <a class="service-card" data-reveal>
+                <div class="card-content has-before">
+                  <ion-icon name="restaurant-outline" aria-hidden="true"></ion-icon>
+                  <h3 class="h3 card-title">Yiyecekler</h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="service-card" data-reveal>
+                <div class="card-content has-before">
+                  <ion-icon name="cafe-outline" aria-hidden="true"></ion-icon>
+                  <h3 class="h3 card-title">Kahveler</h3>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="service-card" data-reveal>
+                <div class="card-content has-before">
+                  <ion-icon name="pizza-outline" aria-hidden="true"></ion-icon>
+                  <h3 class="h3 card-title">Atıştırmalıklar</h3>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section menu has-bg-image" id="menu" aria-labelledby="menu-label">
+        <div class="container">
+          <p class="section-subtitle text-center" data-reveal>En iyi lezzetler</p>
+          <h2 class="h2 section-title text-center" id="menu-label" data-reveal>
+            Menümüz
+          </h2>
+          <ul class="grid-list">
+            <li>
+              <div class="menu-card" data-reveal>
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu.png" width="200" height="200" loading="lazy" alt="Americano Coffee"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Çok Yakında</h3>
+                  <p class="card-text">
+                    Şu anda bunun üzerinde çalışıyoruz. Beklediğiniz için teşekkürler.
+                  </p>
+                  <data class="card-price has-before" value="0.0">0₺</data>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="menu-card" data-reveal>
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu.png" width="200" height="200" loading="lazy" alt="Espresso Coffee"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Çok Yakında</h3>
+                  <p class="card-text">
+                    Şu anda bunun üzerinde çalışıyoruz. Beklediğiniz için teşekkürler.
+                  </p>
+                  <data class="card-price has-before" value="0.0">0₺</data>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="menu-card" data-reveal>
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu.png" width="200" height="200" loading="lazy"
+                    alt="Barista Pouring Syrup" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Çok Yakında</h3>
+                  <p class="card-text">
+                    Şu anda bunun üzerinde çalışıyoruz. Beklediğiniz için teşekkürler.
+                  </p>
+                  <data class="card-price has-before" value="0.0">0₺</data>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="menu-card" data-reveal>
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu.png" width="200" height="200" loading="lazy" alt="Cold - Coffee"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Çok Yakında</h3>
+                  <p class="card-text">
+                    Şu anda bunun üzerinde çalışıyoruz. Beklediğiniz için teşekkürler.
+                  </p>
+                  <data class="card-price has-before" value="0.0">0₺</data>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="menu-card" data-reveal>
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu.png" width="200" height="200" loading="lazy" alt="Cappuccino Arabica"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Çok Yakında</h3>
+                  <p class="card-text">
+                    Şu anda bunun üzerinde çalışıyoruz. Beklediğiniz için teşekkürler.
+                  </p>
+                  <data class="card-price has-before" value="0.0">0₺</data>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="menu-card" data-reveal>
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu.png" width="200" height="200" loading="lazy" alt="Milk Cream Coffee"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Çok Yakında</h3>
+                  <p class="card-text">
+                    Şu anda bunun üzerinde çalışıyoruz. Beklediğiniz için teşekkürler.
+                  </p>
+                  <data class="card-price has-before" value="0.0">0₺</data>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section blog" id="updates" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle text-center" data-reveal>Son güncellemeler</p>
+
+          <h2 class="h2 section-title text-center" id="blog-label" data-reveal>
+            Yeniliklerimiz
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <a href="#" class="blog-card has-before" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/updatesThree.png" width="670" height="450" loading="lazy"
+                    alt="Updates - Three" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Yeni Masa Oyunları Eklendi</h3>
+                  <div class="card-meta">
+                    <div class="meta-wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                      <time class="card-meta-text" datetime="2025-02-20">20 Şubat 2025</time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#menu" class="blog-card has-before" data-reveal>
+                <figure class="card-banner">
+                  <img src="./assets/images/updatesTwo.png" width="670" height="450" loading="lazy"
+                    alt="Updates - Two" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Yeni Ürünlerimiz Menümüze Eklendi</h3>
+                  <div class="card-meta">
+                    <div class="meta-wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                      <time class="card-meta-text" datetime="2025-02-18">18 Şubat 2025</time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="blog-card has-before" data-reveal>
+                <figure class="card-banner">
+                  <img src="./assets/images/updatesOne.png" width="670" height="450" loading="lazy"
+                    alt="Updates - One" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Kafemiz Hizmete Açıldı!</h3>
+                  <div class="card-meta">
+                    <div class="meta-wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                      <time class="card-meta-text" datetime="2025-02-15">15 Şubat 2025</time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="footer-top section" data-reveal>
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="216" height="80" class="w-100" alt="Kiraz Kafe - Logo">
+          </a>
+        </div>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Çalışma Saatleri</p>
+          </li>
+          <li class="footer-list-item">
+            <p>Her Gün</p>
+            <span class="span">07.00 - 23.00</span>
+          </li>
+          <!-- <li class="footer-list-item">
+            <p>Cumartesi - Pazar</p>
+            <span class="span">08.00 - 23.30</span>
+          </li> -->
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">İletişim</p>
+          </li>
+          <li>
+            <div class="wrapper">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+              <div>
+                <span class="span">Konum</span>
+                <p><a href="https://maps.app.goo.gl/ttLWgYWTEntL3pEp8">Kirazlıkent Konutları, 91/18</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="wrapper">
+              <ion-icon name="mail-unread-outline" aria-hidden="true"></ion-icon>
+              <div>
+                <span class="span">E-posta Adresi</span>
+                <p>iletisim@kirazkafe.com.tr</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="wrapper">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+              <div>
+                <span class="span">Telefon Numarası</span>
+                <p>+90 536 650 84 07</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Fotoğraflar</p>
+          </li>
+          <li>
+            <ul class="grid-list">
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/galleryOne.png" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/galleryTwo.png" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/galleryThree.png" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/galleryFour.png" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/galleryFive.png" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallerySix.png" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">
+          © 2023 codewithsadee, KEC tarafından özelleştirilmiştir.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
