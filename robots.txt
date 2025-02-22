@@ -4,4 +4,4 @@ Disallow: /login/
 Disallow: /cart/
 Allow: /
 
-Sitemap: https://kirazkafe.com/sitemap.xml
+Sitemap: https://kirazkafe.com.tr/sitemap.xml
