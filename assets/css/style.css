@@ -396,7 +396,7 @@ body.active { overflow: hidden; }
 }
 
 .hero .section-subtitle {
-  color: black;
+  color: #000000;
   font-weight: bold;
   padding-inline-start: 50px;
 }
